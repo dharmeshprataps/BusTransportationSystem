@@ -1,0 +1,214 @@
+*{
+	margin:0;
+	padding:0;
+}
+#navigationMenu li{
+	display:inline-block;
+	list-style:none;
+	height:39px;
+	padding:2px;
+	width:40px;	
+}
+#navigationMenu span{
+	width:0;
+	left:38px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+	
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+	
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+#navigationMenu a{
+	background:url('navigation.jpg') no-repeat;
+	height:39px;
+	width:38px;
+	display:block;
+	position:relative;
+}
+#navigationMenu a:hover span{ width:auto; padding:0 20px;overflow:visible; }
+#navigationMenu a:hover{
+	text-decoration:none;
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow:0 0 5px #9ddff5;
+}
+
+/* Green Button */
+
+#navigationMenu .home {	background-position:0 0;}
+#navigationMenu .home:hover {	background-position:0 -39px;}
+#navigationMenu .home span{
+	background-color:#7da315;
+	color:#3d4f0c;
+	text-shadow:1px 1px 0 #99bf31;
+}
+
+/* Blue Button */
+
+#navigationMenu .about { background-position:-38px 0;}
+#navigationMenu .about:hover { background-position:-38px -39px;}
+#navigationMenu .about span{
+	background-color:#1e8bb4;
+	color:#223a44;
+	text-shadow:1px 1px 0 #44a8d0;
+}
+
+#navigationMenu .services { background-position:-76px 0;}
+#navigationMenu .services:hover { background-position:-76px -39px;}
+#navigationMenu .services span{
+	background-color:#c86c1f;
+	color:#5a3517;
+	text-shadow:1px 1px 0 #d28344;
+}
+
+/* Yellow Button */
+
+#navigationMenu .portfolio { background-position:-114px 0;}
+#navigationMenu .portfolio:hover{ background-position:-114px -39px;}
+#navigationMenu .portfolio span{
+	background-color:#d0a525;
+	color:#604e18;
+	text-shadow:1px 1px 0 #d8b54b;
+}
+
+/* Purple Button */
+
+#navigationMenu .contact { background-position:-152px 0;}
+#navigationMenu .contact:hover { background-position:-152px -39px;}
+#navigationMenu .contact span{
+	background-color:#af1e83;
+	color:#460f35;
+	text-shadow:1px 1px 0 #d244a6;
+}
+
+
+
+#main{
+
+	margin:80px auto;
+	position:relative;
+	width:40px;
+}
+a, a:visited,a:active {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+a:hover{	text-decoration:underline;}
+a img{	border:none;}
+
+p.note{
+	color:#707070;
+	font-size:10px;
+	text-align:center;
+	margin:50px;
+}
+/*..................*/
+h1{
+	font: bold 20px Tohma;
+}
+h2{
+	font: bold 14px Arial;
+}
+header, section, footer ,aside, nav, article, hgroup{
+	display:block;
+}
+body{
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+	font-size:14px;
+	background:url('chicago1.jpg') no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#big_wapper{
+	
+	margin:20px 0;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#top_header{
+	color:white;
+	padding:10px;
+	margin-left:15%;
+	margin-right:15%;
+}
+#top_menu{
+	border:red;
+	background:#FCB11C;
+	color:white;
+}
+#top_menu li{
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+	font: bold 14px Tahoma;
+	color:white;
+}
+#new_div{
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+	padding:10px;
+	border-bottom:200px;
+}
+#main_section{
+	-webkit-box-flex:1;
+	margin:20px;
+	margin-bottom:50px;
+	padding:20px;
+}
+#the_footer{
+	clear:both;
+	text-align:center;
+	padding:20px;
+	border-top:2px solid #FF88E7;
+	color:yellow;
+}
+article{
+	background:url('emoji.jpg');
+	border:1px solid yellow;
+	color:black;
+	padding: 20px;
+	margin-bottom:15px;
+}
+article footer{
+	text-align:right;
+}
+#side_news{
+	margin-bottom:25%;
+	border:2px dashed red;
+	padding:5px
+	color:white;		
+}
+aside a:visited {
+    color: yellow;
+}
+aside a:hover{color:red;
+	background:yellow;}
+
+p a:visited {
+    color: blue;
+}
+p a:hover{color:red;
+	background:yellow;}
+
+h4{color:white;}
+
+span { 
+    font-size: 200%;
+    color: #8A2BE2;
+	font-family: "Times New Roman", Times, serif;
+	}
+#bro{color:#8A2BE2;}
+#abc a:visited{color:lightblue;}
+nav ul li { width: 20%; }1q
